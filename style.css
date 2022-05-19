@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&display=swap");
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(39, 39, 39);
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+p {
+  font-size: 10px;
+}
+.logo img {
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 50%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.logo-text {
+  margin-left: 10px;
+}
+.logo-color {
+  color: #33a8a5;
+}
+nav {
+  font-family: "Poppins", sans-serif;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 65px;
+  background-color: black;
+  color: white;
+}
+
+nav ul li {
+  margin: 2rem;
+}
+
+.container {
+  background-color: black;
+  min-height: 65vh;
+  display: flex;
+  width: 70%;
+  margin: 25px auto;
+  border-radius: 5px;
+  padding: 1rem;
+}
+.bottom {
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100px;
+  background-color: black;
+  bottom: 0;
+}
+.icons {
+  display: flex;
+  align-items: center;
+
+  margin-top: 10px;
+}
+.icons i {
+  padding: 0 20px;
+  cursor: pointer;
+}
+#myProgressBar {
+  position: absolute;
+  width: 98vw;
+  height: 5px;
+  top: -3px;
+  accent-color: #40cfcb;
+}
+.row-1 {
+  display: flex;
+}
+.songItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+  background-color: rgb(17, 17, 17);
+  height: 10rem;
+  width: 9rem;
+  border-radius: 5px;
+  margin: 1rem 1rem;
+}
+.songItem:hover {
+  background-color: #33a8a5;
+  color: black;
+}
+
+.songItem img {
+  width: 7rem;
+  border-radius: 5px;
+}
+.songListPlay {
+  position: absolute;
+  border: none;
+  border-radius: 50%;
+  color: #3fcac6;
+  color: black;
+  margin-top: 1.8rem;
+  margin-left: 3.5rem;
+  cursor: pointer;
+}
+
+.fa-backward-step:hover {
+  color: #33a8a5;
+}
+.fa-circle-play:hover {
+  color: rgb(139, 139, 139);
+}
+
+.fa-forward-step:hover {
+  color: #33a8a5;
+}
+.songInfo {
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+  left: 10px;
+}
+.songInfo img {
+  width: 5rem;
+  border-radius: 5px;
+  margin-right: 10px;
+}
